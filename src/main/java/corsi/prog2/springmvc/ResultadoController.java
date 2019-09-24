@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class ResultadoController {
     
     @Autowired
-    CervezasRepository cr;
+    private CervezasRepository cr;
     
     @PostMapping("/consulta")   // POST Request para "/consulta"
     public String resultado(
