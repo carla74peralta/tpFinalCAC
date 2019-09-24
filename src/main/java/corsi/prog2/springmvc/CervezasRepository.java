@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface CervezasRepository {
     
-    List<Cerveza> getCervezasByColor(String color);
-    List<String> getColores();
+    public List<Cerveza> getCervezasByColor(String color);
+    public List<String> getColores();
     
 }
