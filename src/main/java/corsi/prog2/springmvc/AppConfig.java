@@ -36,7 +36,7 @@ public class AppConfig implements WebMvcConfigurer {
     public String getDBName() { return "cerveceria"; }
 
     @Bean(name = "dbURL")
-    public String getDBURL() { return "192.168.56.101"; }
+    public String getDBURL() { return "127.0.0.1"; }
 
     @Bean(name = "dbUser")
     public String getDBUser() { return "root"; }

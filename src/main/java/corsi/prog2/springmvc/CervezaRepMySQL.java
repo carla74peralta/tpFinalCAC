@@ -21,7 +21,7 @@ public class CervezaRepMySQL implements CervezasRepository {
     @Autowired  // Inyección en el contructor (constructor injection)
     public CervezaRepMySQL(
             @Qualifier("dbName") String dbName,
-            @Qualifier("dbURL") String dbURL,
+            @Qualifier("dbURL")  String dbURL,
             @Qualifier("dbUser") String dbUser,
             @Qualifier("dbPswd") String dbPswd) {
         dbFullURL = "jdbc:mysql://" + dbURL + "/" + dbName;

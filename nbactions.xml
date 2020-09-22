@@ -9,4 +9,17 @@
                 <goal>jetty:run</goal>
             </goals>
         </action>
+        <action>
+            <actionName>debug</actionName>
+            <packagings>
+                <packaging>war</packaging>
+            </packagings>
+            <goals>
+                <goal>jetty:run</goal>
+                <goal>-o</goal>
+            </goals>
+            <properties>
+                <jpda.listen>maven</jpda.listen>
+            </properties>
+        </action>
     </actions>
