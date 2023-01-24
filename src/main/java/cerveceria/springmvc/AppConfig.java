@@ -1,4 +1,4 @@
-package corsi.prog2.springmvc;
+package cerveceria.springmvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("corsi.prog2.springmvc")
+@ComponentScan("cerveceria.springmvc")
 public class AppConfig implements WebMvcConfigurer {
 
     /* Configuración del despacho de JSPs */

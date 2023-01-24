@@ -1,4 +1,4 @@
-package corsi.prog2.springmvc;
+package cerveceria.springmvc;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

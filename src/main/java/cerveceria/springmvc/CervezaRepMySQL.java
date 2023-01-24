@@ -1,4 +1,4 @@
-package corsi.prog2.springmvc;
+package cerveceria.springmvc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
